@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>test</title>
+    <script src="lib/index.js"></script>
+</head>
+<body>
+<div id="mydiv">
+    <button>按钮</button>
+</div>
+<script>
+  var el = document.getElementById('mydiv')
+  domTapEvent.setupDomTap(el)
+
+  el.querySelector('button').addEventListener('tap', e => {
+    alert(e)
+    console.log(e)
+  })
+</script>
+</body>
+</html>

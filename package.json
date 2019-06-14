@@ -1,0 +1,16 @@
+{
+  "name": "dom-tap-event",
+  "version": "1.0.0",
+  "description": "Support 'tap' event on DOM nodes for mobile devices, resolve the 'click' event's 300ms-delay problem.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "prepublish": "npm run build"
+  },
+  "author": "HuangZheng",
+  "email": "hz932@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.34.0"
+  }
+}
